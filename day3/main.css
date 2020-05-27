@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin: 1rem;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.login__card {
+  margin: 5rem auto;
+  padding: 0 3rem;
+  width: 18rem;
+  border: 3px solid #f1f1f1;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+label {
+  display: block;
+  width: 100%;
+  font-weight: 600;
+}
+
+input {
+  margin-bottom: 1em;
+}
+
+[type="checkbox"] {
+
+  margin-bottom: 0;
+  margin-right: 0.25em;
+}
+

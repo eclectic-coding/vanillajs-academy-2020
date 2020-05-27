@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Password Visibility</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<main>
+  <div class="login__card">
+    <h1>Log in</h1>
+    <form>
+      <div>
+        <label for="username">Username</label> <input type="text" name="username" id="username">
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+
+      <div>
+        <label for="show-password">
+          <input type="checkbox" name="show-passwords" id="show-password"> Show password
+        </label>
+      </div>
+      <p>
+        <button type="submit">Log In</button>
+      </p>
+    </form>
+  </div>
+</main>
+
+</body>
+
+<script>
+  const btn = document.querySelector('#show-password')
+  const passwordInput = document.querySelector('#password')
+
+  btn.addEventListener('click', function (e) {
+      passwordInput.type = this.checked ? 'text' : 'password'
+  }, false)
+
+</script>
+</html>
