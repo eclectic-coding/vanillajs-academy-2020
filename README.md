@@ -6,3 +6,8 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 - Getting an Element in the DOM
 - Listening for Events
 - Project Toggle Password Field
+
+## [Day 2](./day2)
+- Common Issue: Variable Location
+- Common Issue: Using the field to determine visibility
+- Common Issue: Ready Event

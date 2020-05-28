@@ -1,4 +1,4 @@
-# Common Issue Variable Location
+# Common Issue: Variable Location
 
 It is possible to position variables inside the eventLister:
 
@@ -33,7 +33,7 @@ toggle.addEventListener('click', function (event) {
 
 ````
 
-# Common Issue: Using the field to determine visibilty
+# Common Issue: Using the field to determine visibility
 
 It is possible to check the status of the checkbox. However, it is possible for the checkbox and password field to get out of sync.
 
