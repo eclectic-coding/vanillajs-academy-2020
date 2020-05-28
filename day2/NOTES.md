@@ -1,16 +1,62 @@
-# Getting an Element in the DOM
+# Common Issue Variable Location
 
-Use `document.querySelector()` to get the first matching element in the DOM:
+It is possible to position variables inside the eventLister:
 
-First div: `var elem = document.querySelector('div')`
+```javascript
+// Check the toggle checkbox
+var toggle = document.querySelector('#show-password');
 
-First div with class `cat`: `var elem = document.querySelector('.cat')`
+// Listen for click events on the toggle
+toggle.addEventListener('click', function (event) {
 
-You can also target `data-attributes`:
-`var elem = document.querySelector('[data-food="meat"]')`
+	// Get the password field
+	var password = document.querySelector('#password');
+	
+	// Do stuff code
 
+}, false);
 
-**Browser Compatibility**
+````
 
-IE9 and above.
-IE8 if you use CSS2.1 selectors.
+However, it is more performant to define variables outside the eventListener.
+
+```javascript
+// Check the toggle checkbox
+var toggle = document.querySelector('#show-password');
+var password = document.querySelector('#password');
+
+// Listen for click events on the toggle
+toggle.addEventListener('click', function (event) {
+	// Do stuff code
+
+}, false);
+
+````
+
+# Common Issue: Using the field to determine visibilty
+
+It is possible to check the status of the checkbox. However, it is possible for the checkbox and password field to get out of sync.
+
+# Common Issue: Ready Event
+
+If this problem is approach from JQuery experience, you can use `load` to load the script before needing the code.
+
+```javascript
+document.addEventListener('load', function () {
+
+	// Get the password field and toggle checkbox
+	var password = document.querySelector('#password');
+	var toggle = document.querySelector('#show-password');
+
+	// Listen for click events on the toggle
+	toggle.addEventListener('click', function (event) {
+
+	  
+	//	...do stuff
+
+	}, false);
+
+}, false);
+
+```
+However, it is more performant to use a `click` event in the script section of the document.
