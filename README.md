@@ -11,3 +11,8 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 - Common Issue: Variable Location
 - Common Issue: Using the field to determine visibility
 - Common Issue: Ready Event
+
+## [Day 3](./day3)
+- Getting multiple elements in the DOM
+- Looping over elements
+- Project: Toggling multiple password fields
