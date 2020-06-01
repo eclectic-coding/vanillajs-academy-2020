@@ -2,10 +2,10 @@
 
 This repository contains project and notes from Chris Ferdinandi's [VanillaJS Academy](https://vanillajsacademy.com/).
 
-## [Project 1](./day1)
+## [Day 1](./day1)
 - Getting an Element in the DOM
 - Listening for Events
-- Project Toggle Password Field
+- Project: Toggle Password Field
 
 ## [Day 2](./day2)
 - Common Issue: Variable Location
@@ -16,3 +16,7 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 - Getting multiple elements in the DOM
 - Looping over elements
 - Project: Toggling multiple password fields
+
+## [Day 4](./day4)
+- Common Issue: NodeLists and forEach()
+- Common Issue: Targeting Individual Fields
