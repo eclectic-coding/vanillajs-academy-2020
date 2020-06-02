@@ -20,3 +20,9 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 ## [Day 4](./day4)
 - Common Issue: NodeLists and forEach()
 - Common Issue: Targeting Individual Fields
+
+## [Day 5](./day5)
+- Checking if an element matches a selector
+- Events on multiple elements
+- Working with custom attributes
+- Project: Toggling passwords in multiple forms
