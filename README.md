@@ -26,3 +26,6 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 - Events on multiple elements
 - Working with custom attributes
 - Project: Toggling passwords in multiple forms
+
+## [Day 6](./day6)
+- Common Issue: Keeping Code DRY
