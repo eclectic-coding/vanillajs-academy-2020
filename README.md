@@ -29,3 +29,6 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 
 ## [Day 6](./day6)
 - Common Issue: Keeping Code DRY
+
+## [Day 7](./day7)
+- Adding text to an element
