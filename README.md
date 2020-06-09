@@ -32,3 +32,9 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 
 ## [Day 7](./day7)
 - Adding text to an element
+- Project: Character Count
+
+## [Day 8](./day8)
+**Project review**
+- Common Issue: Picking the right event
+- Common Issue: Unneeded variables
