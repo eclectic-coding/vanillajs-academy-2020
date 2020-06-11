@@ -38,3 +38,8 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 **Project review**
 - Common Issue: Picking the right event
 - Common Issue: Unneeded variables
+
+## [Day 9](./day9)
+- Convert a string into an array
+- Filter an array
+- Project: Charater and Word Count
