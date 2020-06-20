@@ -43,3 +43,8 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 - Convert a string into an array
 - Filter an array
 - Project: Charater and Word Count
+
+## [Day 10](./day10)
+**Project review**
+- Common Issue: Catching Line Breaks
+
