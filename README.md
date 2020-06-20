@@ -48,3 +48,8 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 **Project review**
 - Common Issue: Catching Line Breaks
 
+## [Day 11](./day11)
+- Screen Readers
+- Aria Live
+- Project: Charater and Word Count
+
