@@ -42,7 +42,7 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 ## [Day 9](./day09)
 - Convert a string into an array
 - Filter an array
-- Project: Charater and Word Count
+- Project: Character and Word Count
 
 ## [Day 10](./day10)
 **Project review**
@@ -51,5 +51,7 @@ This repository contains project and notes from Chris Ferdinandi's [VanillaJS Ac
 ## [Day 11](./day11)
 - Screen Readers
 - Aria Live
-- Project: Charater and Word Count
+- Project: Character and Word Count
 
+## [Day 13](day13)
+- Promises
